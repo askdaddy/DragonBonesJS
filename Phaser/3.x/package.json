@@ -6,6 +6,7 @@
     "build": "tsc & uglifyjs ./out/dragonBones.js -o ./out/dragonBones.min.js -m"
   },
   "devDependencies": {
+    "phaser": "^3.21.0",
     "typescript": "^2.4.2",
     "uglify-js": "^3.0.26"
   },

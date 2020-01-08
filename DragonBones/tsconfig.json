@@ -7,7 +7,7 @@
 		"alwaysStrict": true,
 		"noImplicitAny": true,
 		"noImplicitThis": true,
-		"noUnusedLocals": true,
+		"noUnusedLocals": false,
 		"noUnusedParameters": true,
 		"strictNullChecks": true,
 		"experimentalDecorators": true,

@@ -9,6 +9,7 @@
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
 		"target": "es5",
+
 		"outFile": "out/dragonBones.js",
 		"lib": [
 			"es5",
@@ -21,7 +22,7 @@
 		"out"
 	],
 	"files": [
-		"./types/phaser.d.ts",
+		"./node_modules/phaser/types/phaser.d.ts",
 
 		"../../DragonBones/src/dragonBones/core/DragonBones.ts",
 		"../../DragonBones/src/dragonBones/core/BaseObject.ts",
@@ -58,7 +59,7 @@
 		"../../DragonBones/src/dragonBones/animation/AnimationState.ts",
 		"../../DragonBones/src/dragonBones/animation/BaseTimelineState.ts",
 		"../../DragonBones/src/dragonBones/animation/TimelineState.ts",
-		
+
 		"../../DragonBones/src/dragonBones/event/EventObject.ts",
 		"../../DragonBones/src/dragonBones/event/IEventDispatcher.ts",
 

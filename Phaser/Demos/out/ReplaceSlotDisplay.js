@@ -1,11 +1,8 @@
 "use strict";
 var __extends = (this && this.__extends) || (function () {
-    var extendStatics = function (d, b) {
-        extendStatics = Object.setPrototypeOf ||
-            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
-            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
-        return extendStatics(d, b);
-    };
+    var extendStatics = Object.setPrototypeOf ||
+        ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+        function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
     return function (d, b) {
         extendStatics(d, b);
         function __() { this.constructor = d; }
@@ -32,7 +29,6 @@ var ReplaceSlotDisplay = /** @class */ (function (_super) {
         this._factory = this.dragonbone.factory;
         this._armatureDisplay = this.add.armature("mecha_1004d", "mecha_1004d");
         this._armatureDisplay.animation.play();
-        // Dragonbones data will be finded only when add.armature called, this makes replaceSlotDisplay work
         this.add.armature("weapon", "weapon_1004");
         //
         this._armatureDisplay.x = this.cameras.main.centerX + 100.0;
